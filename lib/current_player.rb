@@ -2,7 +2,10 @@
 def turn_count(board)
   count = 0
   board.each do |e|
-    if e == nil? || e == ""
+    if e == "X" || e == "O"
+      count += 1
+    end
+      
     
 end
 
